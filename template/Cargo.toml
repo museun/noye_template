@@ -1,0 +1,12 @@
+[package]
+name = "template"
+version = "0.1.0"
+authors = ["museun <museun@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+markings = "0.3.2"
+once_cell = "1.2.0"
+serde = { version = "1.0.104", features = ["derive"] }
+log = "0.4.8"
+toml = "0.5.5"
