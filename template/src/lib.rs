@@ -1,3 +1,11 @@
+#[cfg(feature = "template_derive")]
+#[allow(unused_imports)]
+#[macro_use]
+extern crate template_derive;
+#[cfg(feature = "template_derive")]
+#[doc(hidden)]
+pub use template_derive::*;
+
 use once_cell::sync::OnceCell;
 use std::borrow::Borrow;
 use std::collections::HashMap;
