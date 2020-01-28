@@ -14,6 +14,8 @@ use std::path::{Path, PathBuf};
 use std::sync::Mutex;
 use std::time::SystemTime;
 
+pub use markings;
+
 pub trait Template {
     fn parent() -> &'static str;
     fn name() -> &'static str;
